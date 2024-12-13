@@ -15,12 +15,18 @@
     padding: 20px 0;
     color: rgba(255, 255, 255, 1);
 }
+.hero{
+    border-bottom: 2px solid rgba(255, 184, 0, 1);
+}
 .hero_head{
     display: flex;
 }
 .hero_left{
     display: flex;
     width: 50%;
+}
+.hero_left i{
+    cursor: pointer;
 }
 .hero_left .phone{
     padding-left: 26px;
@@ -34,6 +40,7 @@
 .hero_right ul li i{
     margin: 0 10px;
     display: inline-block;
+    cursor: pointer;
 }
 /* .hero_right .brand{
     margin: 0 10px !important;
@@ -74,6 +81,15 @@
 .banner_img{
     position: relative;
 }
+.banner_img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
 .banner_img img{
     width: 100%;
 }
@@ -93,7 +109,7 @@
 .banner_txt a{
     background: rgba(244, 4, 4, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 2px;
     transition: .5s ease-in-out;
 }
@@ -103,8 +119,90 @@
 }
 
 
-/********** banner_area start here ********/
-/********** banner_area start here ********/
-/********** banner_area start here ********/
-/********** banner_area start here ********/
+/********** welcome_area start here ********/
+.welcome{
+    display: flex;
+    margin: 50px 0;
+}
+.w_left{
+    width: 30%;
+    font-size: 25px;
+}
+.w_right {
+	width: 64%;
+	font-size: 15px;
+	margin-top: 50px;
+    margin-left: 80px;
+    color: rgba(108, 108, 108, 1);
+}
+/********** img_area start here ********/
+.slider_img{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.slider_img img{
+    width: 100%;
 
+}
+
+/********** services_area start here ********/
+.services{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.s_left_txt{
+    width: 50%;
+    position: absolute;
+    left: 203px;
+    top: 70px;
+}
+.s_left_txt p{
+    width: 59%;
+    color: rgba(108, 108, 108, 1);
+}
+.s_left_txt h1{
+    font-size: 50px;
+}
+.s_left_txt p{
+    width: 59%;
+    color: rgba(108, 108, 108, 1);
+}
+.s_right{
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+.s_right img{
+    width: 100%;
+}
+.s_right .overlay .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(255, 255, 255, 1);
+    top: 107px;
+    left: 89px;
+}
+.s_right .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+.overlay .a{
+    background: rgba(244, 4, 4, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 30px;
+    border-radius: 2px;
+    transition: .5s ease-in-out;
+    margin-top: 50px;
+    display: inline-block;
+}
+.overlay .a:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(244, 4, 4, 1);
+}
