@@ -23,10 +23,17 @@
     width: 50%;
 }
 .hero_left .phone{
-    padding-left: 16px;
+    padding-left: 26px;
 }
 .hero_right{
-    margin-left: 405px;
+    margin-left: 355px;
+}
+.hero_right ul{
+    display: flex;
+}
+.hero_right ul li i{
+    margin: 0 10px;
+    display: inline-block;
 }
 /* .hero_right .brand{
     margin: 0 10px !important;
@@ -53,18 +60,51 @@
 }
 .btn{
     color: rgba(255, 255, 255, 1);
-    padding: 15px 25px;
+    padding: 12px 25px;
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 2px;
+    transition: .5s ease-in-out;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(244, 4, 4, 1);
 }
 
-
+/********** banner_area start here ********/
 .banner_img{
     position: relative;
 }
+.banner_img img{
+    width: 100%;
+}
 .banner_txt{
     position: absolute;
-    top: 400px;
-    left: 0;
+    top: 335px;
+    left: 205px;
 }
+.banner_txt h1 {
+	width: 57%;
+	color: rgba(255, 255, 255, 1);
+	font-size: 50px;
+	font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.banner_txt a{
+    background: rgba(244, 4, 4, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 25px;
+    border-radius: 2px;
+    transition: .5s ease-in-out;
+}
+.banner_txt a:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(244, 4, 4, 1);
+}
+
+
+/********** banner_area start here ********/
+/********** banner_area start here ********/
+/********** banner_area start here ********/
+/********** banner_area start here ********/
 
