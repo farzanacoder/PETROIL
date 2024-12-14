@@ -150,13 +150,18 @@
 .services{
     display: flex;
     width: 100%;
-    position: relative;
+    /* position: relative;
+    z-index: 1; */
+    /* overflow: hidden; */
 }
 .s_left_txt{
-    width: 50%;
-    position: absolute;
-    left: 203px;
-    top: 70px;
+    /* width: 50%; */
+    /* position: absolute; */
+    flex: 1;
+    margin-left: 203px;
+    margin-top: 76px;
+    /* left: 203px;
+    top: 70px; */
 }
 .s_left_txt p{
     width: 59%;
@@ -166,13 +171,17 @@
     font-size: 50px;
 }
 .s_left_txt p{
-    width: 59%;
+    width: 79%;
     color: rgba(108, 108, 108, 1);
 }
-.s_right{
-    width: 50%;
-    position: absolute;
-    right: 0;
+.s_right {
+	flex: 1;
+	/* width: 556px; */
+	/* height: 500px; */
+	position: relative;
+	right: 0px;
+	/* display: inline-block; */
+	flex-basis: 200px;
 }
 .s_right img{
     width: 100%;
@@ -206,3 +215,60 @@
     background: rgba(255, 255, 255, 1);
     color: rgba(244, 4, 4, 1);
 }
+
+.services_bottom{
+    width: 100%;
+    display: flex;
+    margin-top: -7px;
+}
+
+/* About_area start here */
+.about{
+    background: rgba(240, 240, 240, 1);
+    padding: 85px 0;
+    margin-top: -6px;
+}
+.about_1{
+    display: flex;
+}
+.about_txt{
+    width: 30%;
+    background: rgba(244, 4, 4, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.about_txt h2{
+    width: 210px;
+    margin-left: 55px;
+    margin-top: 67px;
+}
+.about_img{
+    width: 70%;
+    height: 250px;
+    position: relative;
+}
+.about_img img{
+    width: 100%;
+    height: 100%;
+}
+.about_img a{
+    background: rgba(244, 4, 4, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 30px;
+    border-radius: 2px;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 117px;
+    left: 262px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(244, 4, 4, 1);
+}
+.about_img a:hover{
+    background: rgba(244, 4, 4, 1);
+    color: rgba(255, 255, 255, 1);
+}
+/* About_area start here */
+/* About_area start here */
+color: rgba(0, 152, 24, 1);
+color: rgba(0, 138, 216, 1);
+rgba(133, 133, 133, 1)
