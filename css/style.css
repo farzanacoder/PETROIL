@@ -9,6 +9,7 @@
 .container{
     width: 70%;
     margin: 0 auto;
+    /* overflow: hidden; */
 }
 .hero{
     background: rgba(40, 40, 40, 1);
@@ -267,8 +268,107 @@
     background: rgba(244, 4, 4, 1);
     color: rgba(255, 255, 255, 1);
 }
-/* About_area start here */
-/* About_area start here */
-color: rgba(0, 152, 24, 1);
-color: rgba(0, 138, 216, 1);
-rgba(133, 133, 133, 1)
+/* logo_area start here */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo p {
+	margin-left: -89px;
+	margin-top: 13px;
+}
+.logo .dark{
+    color: rgba(133, 133, 133, 1);
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo .light{
+    color: rgba(133, 133, 133, 1);
+    font-size: 30px;
+}
+.gap{
+    margin-right: 15px;
+}
+
+/* blog_area start here */
+.blog{
+    background: rgba(240, 240, 240, 1);
+    padding: 60px 0;
+}
+.card {
+	display: flex;
+	gap: 20px;
+	width: 956px;
+	height: 378px;
+}
+.card1 {
+	position: relative;
+	width: 305px;
+	height: 378px;
+}
+.card1 img{
+    width: 100%;
+    height: 100%;
+}
+.card1 .overlay1{
+    position: absolute;
+    background: rgba(0, 0, 0,0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.overlay1 p{
+    width: 69%;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(240, 240, 240, 1);
+}
+.overlay1 a{
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 30px;
+    border-radius: 2px;
+    transition: .5s ease-in-out;
+    margin-right: 70px;
+}
+.overlay1 a:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(108, 108, 108, 1);
+}
+.p_blog{
+    margin-left: 730px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.maps{
+    width: 100%;
+}
+/* contact_area start here */
+.contact{
+    background: rgba(244, 4, 4, 1);
+    padding: 40px 0;
+    border-bottom: 2px solid rgba(255, 184, 0, 1);
+}
+.contact_form{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+}
+.c_inp{
+    margin-top: 10px;
+}
+/* footer_area start here */
+.footer{
+    background: rgba(31, 31, 31, 1);
+    padding: 100px;
+}
